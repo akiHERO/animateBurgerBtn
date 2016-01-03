@@ -12,8 +12,7 @@
 		03E9636C1BF59C4E00F782F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E9636A1BF59C4E00F782F0 /* Main.storyboard */; };
 		03E9636E1BF59C4E00F782F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E9636D1BF59C4E00F782F0 /* Assets.xcassets */; };
 		03E963711BF59C4E00F782F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E9636F1BF59C4E00F782F0 /* LaunchScreen.storyboard */; };
-		03E9637C1BF59C4E00F782F0 /* animateBurgerBtnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9637B1BF59C4E00F782F0 /* animateBurgerBtnTests.swift */; };
-		03E963871BF59C4E00F782F0 /* animateBurgerBtnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E963861BF59C4E00F782F0 /* animateBurgerBtnUITests.swift */; };
+		03E963951BF59F7100F782F0 /* hamburgetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E963941BF59F7100F782F0 /* hamburgetButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +41,8 @@
 		03E963701BF59C4E00F782F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03E963721BF59C4E00F782F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03E963771BF59C4E00F782F0 /* animateBurgerBtnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animateBurgerBtnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		03E9637B1BF59C4E00F782F0 /* animateBurgerBtnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animateBurgerBtnTests.swift; sourceTree = "<group>"; };
-		03E9637D1BF59C4E00F782F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03E963821BF59C4E00F782F0 /* animateBurgerBtnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animateBurgerBtnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		03E963861BF59C4E00F782F0 /* animateBurgerBtnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animateBurgerBtnUITests.swift; sourceTree = "<group>"; };
-		03E963881BF59C4E00F782F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E963941BF59F7100F782F0 /* hamburgetButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hamburgetButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				03E963651BF59C4E00F782F0 /* animateBurgerBtn */,
-				03E9637A1BF59C4E00F782F0 /* animateBurgerBtnTests */,
-				03E963851BF59C4E00F782F0 /* animateBurgerBtnUITests */,
 				03E963641BF59C4E00F782F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,26 +97,9 @@
 				03E9636D1BF59C4E00F782F0 /* Assets.xcassets */,
 				03E9636F1BF59C4E00F782F0 /* LaunchScreen.storyboard */,
 				03E963721BF59C4E00F782F0 /* Info.plist */,
+				03E963941BF59F7100F782F0 /* hamburgetButton.swift */,
 			);
 			path = animateBurgerBtn;
-			sourceTree = "<group>";
-		};
-		03E9637A1BF59C4E00F782F0 /* animateBurgerBtnTests */ = {
-			isa = PBXGroup;
-			children = (
-				03E9637B1BF59C4E00F782F0 /* animateBurgerBtnTests.swift */,
-				03E9637D1BF59C4E00F782F0 /* Info.plist */,
-			);
-			path = animateBurgerBtnTests;
-			sourceTree = "<group>";
-		};
-		03E963851BF59C4E00F782F0 /* animateBurgerBtnUITests */ = {
-			isa = PBXGroup;
-			children = (
-				03E963861BF59C4E00F782F0 /* animateBurgerBtnUITests.swift */,
-				03E963881BF59C4E00F782F0 /* Info.plist */,
-			);
-			path = animateBurgerBtnUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +235,7 @@
 			files = (
 				03E963691BF59C4E00F782F0 /* ViewController.swift in Sources */,
 				03E963671BF59C4E00F782F0 /* AppDelegate.swift in Sources */,
+				03E963951BF59F7100F782F0 /* hamburgetButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03E9637C1BF59C4E00F782F0 /* animateBurgerBtnTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03E963871BF59C4E00F782F0 /* animateBurgerBtnUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +460,7 @@
 				03E9638D1BF59C4E00F782F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03E9638E1BF59C4E00F782F0 /* Build configuration list for PBXNativeTarget "animateBurgerBtnTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +469,7 @@
 				03E963901BF59C4E00F782F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03E963911BF59C4E00F782F0 /* Build configuration list for PBXNativeTarget "animateBurgerBtnUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +478,7 @@
 				03E963931BF59C4E00F782F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
